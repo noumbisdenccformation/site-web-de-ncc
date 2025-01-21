@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pdf-groups-container {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+#pdf-groups-container img{
+    padding: 3px;
+    margin:2px;
+    width: 18%;
+}
+
+
