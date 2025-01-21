@@ -7,29 +7,64 @@ const fruits = [
       "img/dress2.png",
   },
   {
-    title: "banana",
+    title: "Boutique",
     imageUrl:
-      "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY2MDV8&ixlib=rb-4.0.3&q=85",
+      "img/boutique1.png",
   },
   {
-    title: "ananas",
+    title: "Boutique",
     imageUrl:
-      "https://images.unsplash.com/photo-1587883012610-e3df17d41270?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY3MTl8&ixlib=rb-4.0.3&q=85",
+      "img/boutique2.png",
   },
   {
-    title: "avocado",
+    title: "Ressource",
     imageUrl:
-      "https://images.unsplash.com/photo-1590005024862-6b67679a29fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY3NDN8&ixlib=rb-4.0.3&q=85",
+      "img/ressource1.png",
   },
   {
-    title: "orange",
+    title: "Ressource",
     imageUrl:
-      "https://images.unsplash.com/photo-1592187270271-9a4b84faa228?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTc5NTZ8&ixlib=rb-4.0.3&q=85",
+      "img/ressource2.png",
   },
   {
-    title: "strawberry",
+    title: "Evenements",
     imageUrl:
-      "https://images.unsplash.com/photo-1587393855524-087f83d95bc9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTgxNTl8&ixlib=rb-4.0.3&q=85",
+      "img/evenements1.png",
+  },
+  {
+    title: "Evenements",
+    imageUrl:
+      "img/evenements2.png",
+  },
+  {
+    title: "Crypto",
+    imageUrl:
+      "img/crypto1.png",
+  },
+  {
+    title: "Crypto",
+    imageUrl:
+      "img/crypto2.png",
+  },
+  {
+    title: "Web",
+    imageUrl:
+      "img/web1.png",
+  },
+  {
+    title: "Web",
+    imageUrl:
+      "img/web2.png",
+  },
+  {
+    title: "Coaching",
+    imageUrl:
+      "img/formations1.png",
+  },
+  {
+    title: "Coaching",
+    imageUrl:
+      "img/formation2.png",
   },
 ];
 
