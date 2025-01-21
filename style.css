@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Playfair+Display&display=swap');
+
+:root{
+    --main-color:#8e44ad;
+    --red:#e74c3c;
+    --orangen:#f39c12;
+    --white:#fff;
+    --black:#2c3e50;
+    --light-color:#888;
+    --light-bg:#eee;
+    --border:rgba(0,0,0,.2);
+    --dark-sky-blue:#1E90FF;
+    --blue:rgb(249, 250, 200);
+    --jauneor:rgb(248,211, 159);
+    --marron-or:rgba(59, 30, 22, 0.8);
+}
+
+header{
+    position: fixed;
+    top:1vh;
+    z-index: 1000;
+}
+
+header .logo{
+    margin-left: 68px;
+    margin-top: 2px;
+    position: absolute; 
+    z-index: 1000;
+    
+}
+
+header .logo img{
+    width: 4.5vh;
+    height: 5vh;
+}
+
+header .connexion{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 1560px;
+    font-size: 13px;
+    z-index: 1000;
+
+}
+
+header .connexion button{
+    margin: 2px;
+    width: 10vh;
+}
+
+header .dessus{
+    width: 190vh; 
+    height: 50px; 
+    background-color: white; 
+    border-radius: 100px 100px 0 0; 
+    border: 1px blue solid;
+    position: absolute;
+    top: 0; 
+    transform: translateX(+1.7%); 
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+header .dessus .menudvptperso{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+ }
+
+ header .dessus .menudvptperso button{
+    padding: 5px;
+    cursor: pointer;
+ }
+
+header .dessus .menudvptnum{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    
+}
+
+header .dessus .menudvptnum button{
+    padding: 5px;
+    cursor: pointer;
+ }
+
+
+.dvpt, .num{
+    height: 30px;
+    width: 130px;
+    margin-left: 15px;
+    padding-top: 10px;
+    background-color: maroon;
+    border-radius: 40px 40px 0 0;
+    border: 0.5px blue solid;
+    bottom: 0;
+    text-align:center;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+
+header .dessous{
+    width: 190vh; 
+    height: 50px; 
+    background-color: blue; 
+    border-radius: 0 0 100px 100px ; 
+    border: 1px blue solid;
+    position: absolute;
+    top: 50px; 
+    transform: translateX(+1.7%); 
+}
+
+header .dessous .description-site{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: chartreuse;
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+
+}
+
+
+/*contenu*/
+
+ #contenu{
+    position: relative;
+    top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 15px;
+    padding: 1%;
+    border: solid 1px var(--border);
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    width: 95vw; /* Adjust width to be 100% viewport width */
+    height: 82vh;
+    box-sizing:content-box;
+    overflow: hidden;
+ }
+
+
+ #contenu #accueil{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    /*margin-top: 3vh;
+    margin-left: 2vh;*/
+}
+
+
+
+
+
+/*pied de page*/
+
+
+footer{
+    position: relative;
+    margin: 5px;
+     
+}
+
+footer .dessus{
+    width: 190vh; 
+    height: 50px; 
+    box-sizing: border-box;
+    background-color: white; 
+    border-radius: 100px 100px 0 0; 
+    border: 1px blue solid;
+    position: relative;
+    transform: translateX(+1.7%); 
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:stretch;
+    
+}
+
+
+footer .dessus .adresse{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+footer .dessus .adresse .element{
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    font-size: 19px;
+    padding: 2%;
+    color: maroon;
+}
+
+footer .dessus .adresse .element i{
+    margin: 3% 0 ;
+}
+
+
+
+footer .dessous{
+    width: 190vh; 
+    height: 50px; 
+    box-sizing: border-box;
+    background-color: blue; 
+    border-radius: 0 0 50px 50px ; 
+    border: 1px blue solid;
+    position: relative;
+    top: 0; 
+    transform: translateX(+1.7%); 
+}
+
+footer .dessous .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: chartreuse;
+    font-weight: bolder;
+
+}
+
+
+

@@ -1,0 +1,7 @@
+.custom-line{
+  height: 15rem;
+  width: 10rem;
+  margin: 5%;
+  padding: 5%;
+  background-color: RGBa(60,240,160,0.7); /*Vert*/
+}

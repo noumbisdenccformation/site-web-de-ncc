@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue chez NCC-formation</title>
+    <!--API d'annimation pour la page d'accueil-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--lien pour la feuille de style principal-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="chargerFichierHTML('projets/accueil/accueil.html')">
+    <!--l'en tête de la page-->
+    <header>
+        <div class="logo">
+            <button onclick="chargerFichierHTML('projets/accueil/accueil.html')"> <img src="images/logo.png"></button>
+        </div>
+        <div class="dessus">
+            <div class="menudvptperso">
+                <button class="dvpt" onclick="chargerFichierHTML('projets/boutique/boutique.html')">Boutique</button>
+                <button class="dvpt" onclick="chargerFichierHTML('projets/ressources/ressource.html')">Ressources</button>
+                <button class="dvpt" onclick="chargerFichierHTML('projets/evenements/evenement.html')">Événements</button>
+            </div>
+            <div class="menudvptnum">
+                <button class="num" onclick="chargerFichierHTML('projets/crypto/crypto.html')">Crypto-monnaies</button>
+                <button class="num" onclick="chargerFichierHTML('projets/web/web.html')">Web</button>
+                <button class="num" onclick="chargerFichierHTML('projets/numerique/numerique.html')">num3</button>
+            </div>
+        </div>
+        <div class="connexion">
+            <button onclick="chargerFichierHTML('connexion/connexion.html')">se connecter</button>
+            <button onclick="chargerFichierHTML('connexion/inscrire.html')">s'incrire</button>
+        </div>
+        <div class="dessous">
+            <div class="description-site">Espace reservé aux développement Personnel & Numérique</div>
+        </div>
+    </header>
+    <!--contenu de la page principale-->
+    <div id="contenu">
+        <!--contenu de la page d'accueil-->
+        <div id="accueil">
+           
+        </div>
+
+    </div>
+
+    
+
+    <!--pied de page!-->
+    <footer>
+        <div class="dessus">
+            
+            <div class="adresse" id="adresse">
+                    <div class="element">
+                        <i class='fa fa-location-pin'></i>
+                        <p  class="location mb-0 pb-0">carrefour IPA - Ange Raphael / Douala</p>
+                    </div>
+        
+                    <div class="element">
+                        <i class='fa fa-envelope-square'></i>
+                        <p class="email mb-0 pb-0"></i>noumbissiej@gmail.com</p>
+                    </div>
+        
+                    <div class="element">
+                        <i class='fa fa-phone'></i>
+                        <p class="phone mb-0 pb-0">(+237) 677 27 74 51 / 658 78 02 93</p>
+                    </div>
+            </div>
+        </div>
+        <div class="dessous">
+            <div class="copyright">&copy; Copyright @ <span id="currentYear"></span> by <span>NCC-formation</span> | All rights reserved!</div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
