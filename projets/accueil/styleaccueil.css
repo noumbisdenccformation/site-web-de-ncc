@@ -634,6 +634,25 @@ section{
     flex-flow: column;
 }
 
+/* mise en forme du texte contenu dans la zone */
+#hero #accueil .seeWork h2 {
+  position: relative;
+  padding-left: 30px; /* Laisser de l'espace pour l'étoile */
+  color: blue;
+}
+
+#hero #accueil .seeWork h2::before {
+  content: "★"; /* Symbole étoile */
+  position: absolute;
+  left: 0; /* Placer l'étoile à gauche du texte */
+  top: 50%; /* Centrer verticalement */
+  transform: translateY(-50%);
+  font-size: 20px; /* Taille de l'étoile */
+  color: gold; /* Couleur de l'étoile */
+}
+
+
+
 
 #hero #accueil .seeWork .scroll-down{
     height: 50px;
