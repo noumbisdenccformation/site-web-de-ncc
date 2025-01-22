@@ -651,6 +651,27 @@ section{
   color: gold; /* Couleur de l'étoile */
 }
 
+/*
+#hero #accueil .seeWork{
+  position: relative;
+  paddingt: 30px;
+  margin: 20px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}*/
+
+#hero #accueil .seeWork {
+  position: relative;
+  padding: 30px; /* Correction du typo "paddingt" */
+  margin: 20px;
+  font-size: 18px; /* Taille de texte légèrement augmentée */
+  color: rgb(0, 0, 0); /* Conserve le texte noir */
+  font-weight: 600; /* Rendre le texte plus noir avec une épaisseur accrue */
+  text-indent: 20px; /* Ajout de retrait en début de paragraphe */
+  line-height: 1.6; /* Espacement des lignes pour améliorer la lisibilité */
+}
+
+
 
 
 
